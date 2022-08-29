@@ -1,0 +1,201 @@
+.accordionBlock{
+  max-width: 1150px;
+  margin: 0 auto;
+  margin-bottom: 195px;
+}
+
+.accordionDescription{
+  margin-bottom: 65px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0.03em;
+}
+
+.accordionImgWhale{
+  width: 101px;
+  height: 40px;
+}
+
+.accordionImg{
+  width: 40px;
+  height: 40px;
+}
+
+.accordion{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bord{
+  border-top: 1px solid #ffffff1e;
+}
+
+.number{
+  margin-right: 76px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.accordionHeading{
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.03em;
+}
+
+.accordionplus{
+  width: 24px;
+  height: 24px;
+  text-align: right;
+}
+
+.ac-container{
+    margin: 10px auto 30px auto;
+}
+
+.ac-container label{
+    padding-top: 0px;
+    padding-bottom: 5px;
+    display: block;
+    cursor: pointer;
+    line-height: 40px;
+    font-size: 32px;
+    letter-spacing: 0.025em;
+}
+
+.ac-container input{
+    display: none;
+}
+
+.ac-container article{
+    padding-left: 90px;
+    overflow: hidden;
+    height: 0px;
+    transition: 0.3s ease-in-out;
+    border-bottom: 1px solid #ffffff1e;
+
+}
+.ac-container input:checked ~ article {
+    transition: 0.3s ease-in-out;
+    height: 100px;
+}
+
+.ac-container article p{
+    line-height: 23px;
+    font-size: 14px;
+    padding: 20px;
+}
+
+@media (max-width: 1024px){
+
+  .accordionBlock{
+    max-width: 912px;
+    margin-bottom: 135px;
+  }
+
+  .accordionDescription{
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+  }
+
+  .accordionImgWhale{
+    width: 90px;
+    height: 32px;
+  }
+
+  .accordionImg{
+    width: 32px;
+    height: 32px;
+  }
+
+  .accordion{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .number{
+    margin-right: 82px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .accordionHeading{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+  }
+
+  .accordionplus{
+    width: 20px;
+    height: 20px;
+    text-align: right;
+  }
+}
+
+@media (max-width: 576px){
+
+  .accordionBlock{
+    max-width: 335px;
+    margin-bottom: 96px;
+  }
+
+  .accordionDescription{
+    max-width: 256px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .accordionImgWhale{
+    width: 67px;
+    height: 26px;
+  }
+
+  .accordionImg{
+    width: 24px;
+    height: 24px;
+  }
+
+  .accordion{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .number{
+    margin-right: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+
+  .accordionHeading{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  }
+
+  .accordionplus{
+    width: 16px;
+    height: 16px;
+    text-align: right;
+  }
+
+  .ac-container article{
+    padding-left: 30px;
+  }
+
+  .ac-container input:checked ~ article {
+    transition: 0.3s ease-in-out;
+    height: 200px;
+  }
+}

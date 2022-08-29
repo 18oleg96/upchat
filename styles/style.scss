@@ -1,0 +1,68 @@
+.body{
+  padding-top: 42px;
+  padding-bottom: 72px;
+  max-width: 1296px;
+  margin: 0 auto;
+
+  .twoTelephone{
+		max-width: 620px;
+		margin: 0 auto;
+    margin-bottom: 192px;
+    display: flex;
+    justify-content: space-between;
+
+		.heroTelephoneOne{
+			margin-top: 158px;
+			width: 280px;
+			height: 720px;
+		}
+
+		.heroTelephoneTwo{
+			width: 260px;
+			height: 720px;
+		}
+  }
+}
+
+@media (max-width: 1024px){
+	.body{
+		max-width: 912px;
+		.twoTelephone{
+			max-width: 448px;
+			margin-bottom: 128px;
+			display: flex;
+			.heroTelephoneOne{
+				margin-top: 120px;
+				width: 199px;
+				height: 512px;
+			}
+	
+			.heroTelephoneTwo{
+				width: 185px;
+				height: 512px;
+			}
+		}
+	}
+}
+
+@media (max-width: 576px){
+	.body{
+		max-width: 335px;
+		.twoTelephone{
+			max-width: 321px;
+			margin-bottom: 96px;
+			display: flex;
+			.heroTelephoneOne{
+				margin-top: 80px;
+				width: 146px;
+				height: 376px;
+			}
+	
+			.heroTelephoneTwo{
+				width: 136px;
+				height: 375px;
+			}
+		}
+	}
+}
+

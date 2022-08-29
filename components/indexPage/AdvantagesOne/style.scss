@@ -1,0 +1,239 @@
+.allBlocks{
+  position: relative;
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 170px;
+
+  .advantagesOne{
+    margin-bottom: 156px;
+    
+    .advantagesOneDescription{
+      padding-top: 100px;
+    
+      .advantages{
+        margin-bottom: 60px;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 48px;
+        letter-spacing: 0.035em;
+      }
+    
+      .enumeration{
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 580px;
+    
+        .blockEnumeration{
+          max-width: 264px;
+          margin-bottom: 40px;
+          margin-right: 26px;
+    
+          .enumerationImg{
+            margin-bottom: 14px;
+            width: 40px;
+            height: 40px;
+          }
+    
+          .enumerationDiscription{
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0.25px;
+          }
+        }
+      }
+    }
+  }
+
+  .advantagesTwo{
+    margin-bottom: 237px;
+  }
+}
+
+  .phonone{
+    height: 750px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 8em;
+    display: flex;
+    align-items: flex-start;
+    
+    .telephonone{
+      // visibility: hidden;
+      // opacity: 0;
+
+      .telephononeImg1{
+        width: 356px;
+        height: 720px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        visibility: hidden;
+      }
+      .telephononeImg2{
+        width: 356px;
+        height: 720px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        visibility: hidden;
+      }
+      .telephononeImg3{
+        width: 356px;
+        height: 720px;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        visibility: hidden;
+      }
+    }
+  }
+
+.advantagesImg{
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width: 1024px){
+
+  .allBlocks{
+    max-width: 912px;
+    margin-bottom: 132px;
+
+    .advantagesOne{
+      margin-bottom: 60px;
+
+      .advantagesOneDescription{
+        padding-top: 35px;
+  
+        .advantages{
+          margin-bottom: 48px;
+          font-size: 32px;
+          font-weight: 500;
+          line-height: 40px;
+          letter-spacing: 0.04em;
+        }
+  
+        .enumeration{
+          .blockEnumeration{
+            max-width: 258px;
+            margin-bottom: 40px;
+            margin-right: 45px;
+    
+            .enumerationImg{
+              margin-bottom: 13px;
+              width: 32px;
+              height: 32px;
+            }
+    
+            .enumerationDiscription{
+              max-width: 210px;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 24px;
+              letter-spacing: 0.25px;
+            }
+          }
+        }
+      }
+    }
+
+    .advantagesTwo{
+      margin-bottom: 130px;
+    }
+    
+    .phonone{
+      height: 500px;
+
+      .telephonone{
+        .telephononeImg1{
+          width: 300px;
+          height: 512px;
+          padding-right: 40px;
+        }
+  
+        .telephononeImg2{
+          width: 300px;
+          height: 512px;
+          padding-right: 40px;
+        }
+  
+        .telephononeImg3{
+          width: 300px;
+          height: 512px;
+          padding-right: 40px;
+        }
+      }
+    }
+  }
+
+  .advantagesImg{
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 576px){
+
+  .allBlocks{
+    max-width: 335px;
+    margin-bottom: 0px;
+
+    .advantagesOne{
+      margin-bottom: 96px;
+      .advantagesOneDescription{
+        padding-top: 0px;
+  
+        .advantages{
+          margin-bottom: 40px;
+          font-size: 24px;
+          font-weight: 500;
+          line-height: 32px;
+          letter-spacing: 0.04em;
+        }
+  
+        .advantagesImg{
+          width: 24px;
+          height: 24px;
+        }
+  
+        .enumeration{
+          .blockEnumeration{
+            max-width: 150px;
+            margin-bottom: 32px;
+            margin-right: 10px;
+    
+            .enumerationImg{
+              margin-bottom: 16px;
+            }
+    
+            .enumerationDiscription{
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 24px;
+              letter-spacing: 0.25px;
+            }
+          }
+        }
+      }
+    }
+
+    .advantagesTwo{
+      margin-bottom: 96px;
+    }
+  
+  }
+
+  .telephononeImg1{
+    display: none;
+  }
+  .telephononeImg2{
+    display: none;
+  }
+  .telephononeImg3{
+    display: none;
+  }
+}

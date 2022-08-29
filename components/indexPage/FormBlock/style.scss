@@ -1,0 +1,340 @@
+a{
+  color: #8e96a0bf;
+}
+
+.formBlock{
+  max-width: 1150px;
+  margin: 0 auto;
+  margin-bottom: 192px;
+
+  .formDescription{
+    margin-bottom: 60px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0.035em;
+  }
+}
+
+.formImg{
+  width: 40px;
+  height: 40px;
+}
+
+.form{
+
+  .formText{
+    margin-bottom: 49px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.25px;
+  }
+
+  .formInput{
+    margin-bottom: 6px;
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+    .enter{
+      padding-bottom: 19px;
+      margin-bottom: 48px;
+      border-bottom: 1px solid #ffffff1e;
+      
+      .formName,
+      .formTel{
+        padding-right: 40px;
+        width: 554px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.25px;
+        color: #8E96A0;
+        background-color: #0B111B;
+        border: none;
+      }
+  
+      .formEmail,
+      .formLogin{
+        width: 554px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.25px;
+        color: #8E96A0;
+        background-color: #0B111B;
+        border: none;
+      }
+  
+      .formChat{
+        width: 1152px;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.25px;
+        color: #8E96A0;
+        background-color: #0B111B;
+        border: none;
+      }
+    }
+  }  
+  .formTextCall{
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.25px;
+  }
+
+  .formCheckbox{
+    margin-bottom: 56px;
+  
+    .toggle-button{
+      margin-right: 20px;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 28px;
+    }
+    
+    .toggle-button{
+      position: relative;
+      display: inline-block;
+      color: #8E96A0;
+    }
+    
+    .toggle-button label{
+      display: inline-block;
+      cursor: pointer;
+      text-align: center;
+    }
+    
+    .toggle-button input {
+      display: none; 
+    }
+    
+    .toggle-button--aava label {
+      height: 50px;
+      line-height: 45px;
+      transition: all 0.2s;
+      border-radius: 2rem; 
+    }
+    
+    .toggle-button--aava label:before, .toggle-button--aava label:after {
+      right: 1.5rem;
+    }
+    
+    .toggle-button--aava label:after {
+      content: attr(data-text); 
+    }
+    
+    .toggle-button--aava input[type=checkbox] + label {
+      max-width: 170px;
+      background: #0B111B;
+      border: 1px solid #ffffff1e; 
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+    
+    .toggle-button--aava input[type=checkbox]:checked ~ label {
+      max-width: 170px;
+      background: #0B111B;
+      border: 1px solid #ffffff; 
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
+
+  .formApproval{
+    max-width: 612px;
+    margin-bottom: 56px;
+    .approvalText{
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.25px;
+      color: #8e96a080;
+      .approvalTextSpan{
+        text-decoration: underline;
+        color: #8e96a0bf;
+      }
+    }
+  }
+
+  .formBtn{
+    display: flex;
+    margin: 0 auto;
+    border-radius: 100%;
+    background-color: #0B111B;
+  }
+}
+
+@media (max-width: 1024px){
+
+  .formBlock{
+    max-width: 912px;
+    margin-bottom: 122px;
+  
+    .formDescription{
+      margin-bottom: 50px;
+      font-size: 32px;
+      font-weight: 500;
+      line-height: 40px;
+      letter-spacing: 0.035em;
+    }
+  }
+
+  .formImg{
+    width: 32px;
+    height: 32px;
+  }
+
+  .form{
+    
+    .formText{
+      margin-bottom: 40px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.25px;
+    }
+    
+    .formInput{
+      margin-bottom: 6px;
+
+      .enter{
+        margin-bottom: 40px;
+        
+        .formName,
+        .formTel{
+          width: 448px;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+        }
+    
+        .formEmail,
+        .formLogin{
+          width: 448px;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+        }
+    
+        .formChat{
+          width: 912px;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .formTextCall{
+      margin-bottom: 17px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.25px;
+    }
+    
+    .formCheckbox{
+      margin-bottom: 45px;
+    
+      .toggle-button{
+        margin-right: 20px;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+
+    .formApproval{
+      margin-bottom: 45px;
+    }
+  }
+}
+
+@media (max-width: 576px){
+
+  .formBlock{
+    max-width: 335px;
+    margin-bottom: 96px;
+  
+    .formDescription{
+      margin-bottom: 40px;
+      font-size: 24px;
+      line-height: 32px;
+    }
+  }
+
+  .formImg{
+    width: 24px;
+    height: 24px;
+  }
+
+  .form{
+    
+    .formText{
+      margin-bottom: 40px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.25px;
+    }
+    
+    .formInput{
+      margin-bottom: 8px;
+
+      .enter{
+        margin-bottom: 32px;
+        
+        .formName,
+        .formTel{
+          width: 335px;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+        }
+    
+        .formEmail,
+        .formLogin{
+          width: 335px;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+        }
+    
+        .formChat{
+          width: 335px;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+        }
+      }
+    }
+
+    .formTextCall{
+      margin-bottom: 20px;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.25px;
+    }
+    
+    .formCheckbox{
+      margin-bottom: 40px;
+    
+      .toggle-button{
+        margin-bottom: 12px;
+        margin-right: 20px;
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+
+    .formApproval{
+      max-width: 320px;
+      margin-bottom: 40px;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "beaver-dealer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/component-cache": "^1.1.6",
+    "aos": "^2.3.4",
+    "core-js": "^3.19.3",
+    "gsap": "^3.9.1",
+    "nuxt": "^2.15.8",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "vue2-transitions": "^0.3.0",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.2.1",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "fibers": "^5.0.0",
+    "node-sass": "^6.0.1",
+    "nuxt-compress": "^5.0.0",
+    "sass": "^1.17.2",
+    "sass-loader": "^10.2.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

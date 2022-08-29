@@ -1,0 +1,21 @@
+.nav-messenger{
+  margin-right: 135px;
+  width: 28px;
+  height: 36px;
+}
+
+.messenger{
+  width: 28px;
+  height: 36px;
+}
+
+@media (max-width: 1024px){
+  .nav-messenger{
+
+    .messenger{
+      width: 24px;
+      height: 32px;
+    }
+  }
+}
+

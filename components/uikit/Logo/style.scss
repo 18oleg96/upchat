@@ -1,0 +1,27 @@
+.nav-logo{
+  margin-left: 135px;
+  .logo{
+    width: 108px;
+    height: 31px;
+  }
+}
+
+@media (max-width: 1024px){
+  .nav-logo{
+    margin-left: 93px;
+    .logo{
+      width: 97px;
+    }
+  }
+}
+
+@media (max-width: 576px){
+
+  .nav-logo{
+    margin-left: 0px;
+    .logo{
+      width: 83px;
+      height: 26px;
+    }
+  }
+}
